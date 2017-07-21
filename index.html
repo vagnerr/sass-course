@@ -4,11 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>My New Site</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    hello world
-    more random stuff here
+<body class="site single">
+
+
+
+    <!-- Header -->
+    <header id="site__header"></header>
+
+
+    <!-- MAIN -->
+    <main id="site__main">
+        <!-- ARTICLE -->
+        <article class="article article--single">
+            <!-- article header -->
+            <header class="article__header">
+               <h1>A wonderfull article title </h1>
+
+               <!-- BYLINE -->
+               <div class="byline">
+                   <div class="byline__box byline__author">
+                        Peter J. Wise (@vagnerr)
+                   </div>
+                   <div class="byline__box byline__time">
+                       <time>Jan 1, 1970</time>
+
+                   </div>
+               </div>
+            </header>
+
+
+            <!-- ART IMAGE -->
+            <div class="article__image">
+                <img src="http://www.bloodaxe.com/red1.gif">
+
+            </div>
+
+            <!-- Action but -->
+            <div class="action">
+                <a href="#" class="actions__btn actions__btn--code">View Code</a>
+                <a href="#" class="actions__btn actions__btn--demo">View Demo</a>
+
+            </div>
+
+            <!-- article inner -->
+            <div class="article__inner">
+
+
+                <!-- SIDEBAR -->
+                <asside class="sidebar">
+                    <!-- TOC -->
+                    <ul class="table-of-contents">
+                        <li><a href="#">Introduction</a></li>
+                        <li><a href="#">Getting started</a></li>
+                        <li><a href="#">Implementing</a></li>
+                        <li><a href="#">Building</a></li>
+                        <li><a href="#">Conclusion</a></li>
+                    </ul>
+
+                    <!-- SIDEBAR ADD -->
+                    <div class="ad">
+                        <img src="http://placekitten.com/g/300/250">
+                    </div>
+
+
+
+
+                </asside>
+
+
+                <!-- content body -->
+                <div class="article__content content">
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cum,
+                        quas fugit animi! Possimus repellat corporis ipsam quaerat, autem
+                        voluptatum ducimus, labore delectus pariatur dolorem a commodi
+                        necessitatibus debitis quisquam?</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cum,
+                        quas fugit animi! Possimus repellat corporis ipsam quaerat, autem
+                        voluptatum ducimus, labore delectus pariatur dolorem a commodi
+                        necessitatibus debitis quisquam?</p>
+
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="site__footer"></footer>
+
+
 </body>
 </html>
